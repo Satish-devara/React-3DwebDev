@@ -1,12 +1,46 @@
-# React + Vite
+# Nova Metagame Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A visually immersive, interactive landing page built with **React**, **Tailwind CSS**, and **GSAP animations**, showcasing the Nova metagame ecosystem. Experience 3D hover effects, animated titles, video backgrounds, and scroll-triggered interactions.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🌟 Demo
+Live demo: [https://your-website-link.com](https://your-website-link.com)  
+
+
+---
+
+## 🚀 Features
+- **Hero Section** with multiple interactive video layers and dynamic clip paths.
+- **Animated Titles** with GSAP scroll-triggered effects.
+- **Bento Cards** with tilt and hover animations in the Features section.
+- **Navigation Bar** with scroll-based visibility, hover effects, and audio indicator.
+- **Responsive Footer** with Instagram, LinkedIn, and GitHub links.
+- **Loading Screen** with animated "three-body" loader.
+- Fully **responsive** across mobile, tablet, and desktop devices.
+- Built with **Tailwind CSS** for a modern, utility-first design.
+
+---
+
+## 🛠 Technologies
+- **React 18** – Component-based UI
+- **Tailwind CSS** – Styling and responsive design
+- **GSAP** – Advanced animations & scroll triggers
+- **React Icons** – Social media icons
+- **React Use** – Hooks like `useWindowScroll`
+
+/src
+ ├─ /components
+ │   ├─ Hero.jsx
+ │   ├─ Nav.jsx
+ │   ├─ Footer.jsx
+ │   ├─ Features.jsx
+ │   ├─ AnimatedTitle.jsx
+ │   └─ Button.jsx
+ ├─ /videos
+ ├─ /img
+ └─ App.jsx
+
+ This project was built by taking refernece from JavaMastery Channel and rights goes to the creditble user.
